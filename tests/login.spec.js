@@ -1,6 +1,6 @@
 import test, { expect } from "@playwright/test";
 
-test('Login successful', async ({page}) => {
+test('Login successfully', async ({page}) => {
     
     await page.goto('/login');
     await page.getByRole('textbox', { name: 'Type your username' }).fill('test');
