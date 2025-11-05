@@ -1,0 +1,42 @@
+export const users = [ 
+    {
+        Name: 'Tatiana',
+        Email: 'tatiana@gmail.com',
+        Password: '1234',
+        Country: 'canada',
+        Gender: 'Female',
+        Hobbies: [ 'Travel', 'Movies' ],
+    },
+    {
+        Name: 'Diana',
+        Email: 'diana@gmail.com',
+        Password: '12356',
+        Country: 'brazil',
+        Gender: 'Female',
+        Hobbies: [],
+    },
+    {
+        Name: 'João',
+        Email: 'joao@gmail.com',
+        Password: '1212',
+        Country: 'usa',
+        Gender: 'Male',
+        Hobbies: [ 'Video Games', 'Board Games', 'Read books' ],
+    },
+    {
+        Name: 'Laila',
+        Email: 'laila@gmail.com',
+        Password: '4545',
+        Country: 'mexico',
+        Gender: 'Other',
+        Hobbies: [ 'Sports' ],
+    },
+    {
+        Name: 'Jonathan',
+        Email: 'jonathan@gmail.com',
+        Password: '3456',
+        Country: 'portugal',
+        Gender: 'Male',
+        Hobbies: [],
+    },
+];
