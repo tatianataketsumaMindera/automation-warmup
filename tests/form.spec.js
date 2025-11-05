@@ -12,7 +12,7 @@ test.describe('Form with Multiple Users', () => {
             await page.getByRole('textbox', { name: 'Password *' }).click();
             await page.getByRole('textbox', { name: 'Password *' }).fill(user.Password);
             await page.getByLabel('Country *').selectOption(user.Country);
-            await page.locator('radio' , { hasText: user.Gender }).click();
+            await page.getByRole('radio', { name: user.Gender, exact: true }).check();
 
             if (user.Hobbies && user.Hobbies.length > 0){
                for (const hobbie of user.Hobbies) {
